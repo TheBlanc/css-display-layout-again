@@ -1,0 +1,84 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.top {
+  background-color: #242424;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+  color: #f4f4f4;
+  font-weight: bold;
+  padding: 15px 0px;
+}
+
+nav li {
+  display: inline-block;
+  background-color: #cccccc;
+  padding: 8px 10px;
+}
+
+nav {
+    text-align: center;
+    padding: 5px 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f4f4f4;
+  background-color: #cccccc;
+  font-weight: bold;
+
+}
+
+.gallery {
+  margin: 0px 20px;
+  padding-bottom: 10px;
+}
+
+.title {
+  font-size: 16px;
+  background-color: #78d6b7;
+  color: #242424;
+  padding: 10px 5px;
+}
+
+.title em {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: gold;
+}
+
+.menu {
+  background-color: gold;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.card {
+  display: inline-block;
+  padding: 7px 0px;
+
+}
+
+.photo {
+  padding-bottom: 2px;
+}
+
+footer {
+  text-align: center;
+  background-color: #242424;
+}
+
+footer p {
+  color: #f4f4f4;
+  padding: 15px 0px;
+}
